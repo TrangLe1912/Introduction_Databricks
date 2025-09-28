@@ -92,23 +92,4 @@ Thực hành với dữ liệu thật:
 
 Áp dụng các kỹ thuật đã học với dataset của bạn
 Thử nghiệm với các use cases khác nhau
-Các khái niệm quan trọng
-Databricks Lakehouse
-Unified Platform: Tích hợp data engineering, ML, và analytics
-Delta Lake: ACID transactions, schema evolution, time travel
-Medallion Architecture: Bronze → Silver → Gold data layers
-PySpark Core Concepts
-RDD: Resilient Distributed Dataset
-DataFrame: Structured data với schema
-Transformations vs Actions: Lazy evaluation pattern
-Catalyst Optimizer: Query optimization engine
-Performance Best Practices
-Data Organization: Partitioning, file sizing, Z-ordering
-Compute Optimization: Cluster sizing, auto-scaling
-Query Optimization: Predicate pushdown, broadcast joins, caching
-Memory Management: Serializers, GC tuning, storage levels
-Tài liệu tham khảo
-Databricks Documentation
-Apache Spark Documentation
-PySpark API Reference
-Delta Lake Documentation
+
