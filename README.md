@@ -22,74 +22,118 @@ Giải pháp Databricks: Platform thống nhất, cloud-native, auto-scaling
 Kiến trúc Lakehouse: Kết hợp Data Warehouse và Data Lake
 
 2. Các thành phần cốt lõi của Databricks
-Databricks Workspace & Notebooks: Môi trường cộng tác
-Databricks SQL: Kho dữ liệu serverless hiệu suất cao
-Delta Lake: Lớp lưu trữ đáng tin cậy với ACID transactions
-Unity Catalog: Quản trị dữ liệu tập trung
-Clusters: Tài nguyên tính toán linh hoạt
-Workflows: Tự động hóa pipeline dữ liệu
-Machine Learning: Nền tảng ML/AI end-to-end
+   
+  - Databricks Workspace & Notebooks: Môi trường cộng tác
 
-3. PySpark căn bản
-Kiến trúc Spark: Driver-Executor model
-SparkSession: Entry point cho ứng dụng Spark
-DataFrame API: Làm việc với dữ liệu có cấu trúc
-Lazy Evaluation: Tối ưu hóa kế hoạch thực thi
+  - Databricks SQL: Kho dữ liệu serverless hiệu suất cao
 
-4. Thao tác với PySpark DataFrame
+  - Delta Lake: Lớp lưu trữ đáng tin cậy với ACID transactions
+
+  - Unity Catalog: Quản trị dữ liệu tập trung
+
+  -  Clusters: Tài nguyên tính toán linh hoạt
+
+  -  Workflows: Tự động hóa pipeline dữ liệu
+
+  - Machine Learning: Nền tảng ML/AI end-to-end
+
+4. PySpark căn bản
+
+  - Kiến trúc Spark: Driver-Executor model
+
+  - SparkSession: Entry point cho ứng dụng Spark
+  
+  - DataFrame API: Làm việc với dữ liệu có cấu trúc
+
+  - Lazy Evaluation: Tối ưu hóa kế hoạch thực thi
+
+5. Thao tác với PySpark DataFrame
+
 Thao tác cơ bản
-Tạo và hiển thị DataFrame
-Chọn, thêm, xóa và đổi tên cột
-Lọc và sắp xếp dữ liệu
-Xử lý missing values
+
+  - Tạo và hiển thị DataFrame
+
+  - Chọn, thêm, xóa và đổi tên cột
+  
+  - Lọc và sắp xếp dữ liệu
+
+  - Xử lý missing values
+  
 Thao tác nâng cao
-Aggregations: GroupBy và các hàm tổng hợp
-Window Functions: Ranking, running totals, moving averages
-Joins: Inner, outer, left, right joins
-UDFs: User Defined Functions tùy chỉnh
-Bài tập thực hành
-Dự án: Phân tích dữ liệu bán hàng
+  
+  - Aggregations: GroupBy và các hàm tổng hợp
+  
+  - Window Functions: Ranking, running totals, moving averages
+  
+  - Joins: Inner, outer, left, right joins
+
+  - UDFs: User Defined Functions tùy chỉnh
+
+Bài tập thực hành: Phân tích dữ liệu bán hàng
 Một bài tập hands-on hoàn chỉnh bao gồm:
 
 Data Preparation & Cleaning
 
-Tạo master dataset từ multiple tables
-Làm sạch và enriching data
-Thêm business logic
-Sales Performance Analysis
+  - Tạo master dataset từ multiple tables
+  
+  - Làm sạch và enriching data
+  
+  - Thêm business logic
+  
+  - Sales Performance Analysis
 
 Tổng quan doanh thu và metrics
-Phân tích theo sản phẩm và thời gian
-Trend analysis theo tuần
+
+  - Phân tích theo sản phẩm và thời gian
+  
+  - Trend analysis theo tuần
+
 Customer Analysis
 
-Customer segmentation chi tiết
-Demographic analysis
-RFM Analysis cơ bản
-Advanced Analytics
+  - Customer segmentation chi tiết
+  
+  - Demographic analysis
+  
+  - RFM Analysis cơ bản
+  
+  - Advanced Analytics
 
 Customer purchase patterns
-Product trend analysis với Window Functions
-Predictive insights
+
+  - Product trend analysis với Window Functions
+
+  - Predictive insights
+
 Yêu cầu hệ thống
-Databricks Workspace (Community Edition hoặc Trial)
-Python 3.7+
-PySpark (được cài đặt sẵn trên Databricks)
+  
+  - Databricks Workspace (Community Edition hoặc Trial)
+
+  - Python 3.7+
+
+  - PySpark (được cài đặt sẵn trên Databricks)
 
 Cách sử dụng
-Clone repository
-Import notebook vào Databricks:
+  - Clone repository
 
-Đăng nhập vào Databricks Workspace
-Import file pyspark_databricks_tutorial.py
-Attach notebook vào cluster
-Chạy từng cell theo thứ tự:
+  - Import notebook vào Databricks:
 
-Đọc kỹ comments và markdown cells
-Thực thi code cells và quan sát kết quả
-Thử modify code để hiểu rõ hơn
+    + Đăng nhập vào Databricks Workspace
+    
+    + Import file pyspark_databricks_tutorial.py
+    
+    + Attach notebook vào cluster
+  
+  - Chạy từng cell theo thứ tự:
+
+    + Đọc kỹ comments và markdown cells
+  
+    + Thực thi code cells và quan sát kết quả
+    
+    + Thử modify code để hiểu rõ hơn
+
 Thực hành với dữ liệu thật:
 
-Áp dụng các kỹ thuật đã học với dataset của bạn
-Thử nghiệm với các use cases khác nhau
+  - Áp dụng các kỹ thuật đã học với dataset của bạn
+
+  - Thử nghiệm với các use cases khác nhau
 
