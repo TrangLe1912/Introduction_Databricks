@@ -7,15 +7,20 @@ Mục tiêu học tập
 Sau khi hoàn thành tutorial này, bạn sẽ:
 
 ✅ Hiểu được vai trò và lợi ích của Databricks trong hệ sinh thái dữ liệu hiện đại
-✅ Hiểu kiến trúc Lakehouse và cách hoạt động của Delta Lake
+
+✅ Hiểu kiến trúc Lakehouse và cách hoạt động của Delta 
+
 ✅ Thành thạo PySpark DataFrame API cho xử lý dữ liệu có cấu trúc
+
 ✅ Áp dụng các kỹ thuật phân tích dữ liệu
+
 Cấu trúc nội dung
 1. Giới thiệu về Databricks
 Bối cảnh lịch sử: Sự phát triển của Big Data (1970-nay)
 Thách thức truyền thống: Hạ tầng phức tạp, Data silos, chi phí cao
 Giải pháp Databricks: Platform thống nhất, cloud-native, auto-scaling
 Kiến trúc Lakehouse: Kết hợp Data Warehouse và Data Lake
+
 2. Các thành phần cốt lõi của Databricks
 Databricks Workspace & Notebooks: Môi trường cộng tác
 Databricks SQL: Kho dữ liệu serverless hiệu suất cao
@@ -24,11 +29,13 @@ Unity Catalog: Quản trị dữ liệu tập trung
 Clusters: Tài nguyên tính toán linh hoạt
 Workflows: Tự động hóa pipeline dữ liệu
 Machine Learning: Nền tảng ML/AI end-to-end
+
 3. PySpark căn bản
 Kiến trúc Spark: Driver-Executor model
 SparkSession: Entry point cho ứng dụng Spark
 DataFrame API: Làm việc với dữ liệu có cấu trúc
 Lazy Evaluation: Tối ưu hóa kế hoạch thực thi
+
 4. Thao tác với PySpark DataFrame
 Thao tác cơ bản
 Tạo và hiển thị DataFrame
@@ -68,11 +75,9 @@ Yêu cầu hệ thống
 Databricks Workspace (Community Edition hoặc Trial)
 Python 3.7+
 PySpark (được cài đặt sẵn trên Databricks)
-Cách sử dụng
-Clone repository:
 
-git clone https://github.com/nguyenhads/introduction-to-data-processing-with-pyspark-and-databricks.git
-cd introduction-to-data-processing-with-pyspark-and-databricks
+Cách sử dụng
+Clone repository
 Import notebook vào Databricks:
 
 Đăng nhập vào Databricks Workspace
